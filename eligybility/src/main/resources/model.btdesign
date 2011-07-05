@@ -1,0 +1,23 @@
+Application Eligybility {
+	
+    basePackage=com.eligybility
+
+    Module milkyway {
+        Entity Planet {
+            scaffold
+            String name key;
+            String message;
+            Integer diameter nullable;
+            Integer population nullable;
+            - Set<@Moon> moons opposite planet;
+
+        }
+        
+        Entity Moon {
+            not aggregateRoot // belongs to Planet Aggregate
+            String name key;
+            Integer diameter nullable;
+            - @Planet planet opposite moons;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+# Check sum file
+# Entries are in the following format: checksum:file
+
+1637b24cfd3dffcc0085f10985a0e13e718decb1:src/main/resources/more.xml
+738b2b0aff73d7fec1f387c206c48f073f5ab7e4:src/main/resources/logback.xml
+ea80260845c352ba5c1397a17b90e0a2e21da3da:src/test/resources/more-test.xml
+fb34f8f0528a0ab9348b063ac8f21ac9357ab681:src/main/resources/spring.properties
+d6715cc96155690fef1498b21e60dff073eed35e:src/test/resources/dbunit/PlanetServiceTest.xml
+c91e71fdf76aab752e65ec41f06a9f050f6a644f:src/test/resources/ehcache.xml
+82a8a817ae011a80db27a8536ae87c7cf9763dd1:src/main/resources/ehcache.xml
+532a488aed32eb485e3a7842c0f08cf9263f74f5:src/test/java/com/eligybility/milkyway/serviceapi/PlanetServiceTest.java
+fd044a6a2715a6121183c955b1bb31f11820914f:src/test/resources/spring-test.properties
+152faf74fcb8c87bf9682617d06279bec5d1b3be:src/test/resources/logback-test.xml
